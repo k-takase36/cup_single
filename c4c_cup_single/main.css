@@ -1,0 +1,77 @@
+.container {
+  width: auto;
+  height: 100px;
+}
+
+.left {
+  background: lightblue;
+  float: left;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+}
+
+.center_left {
+  background: lightcoral;
+  float: left;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+}
+
+.center_right {
+  background: lightgoldenrodyellow;
+  float: left;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+}
+
+.right {
+  background: lightseagreen;
+  float: left;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+}
+
+.img_box {
+  text-align: center;
+}
+
+.home_box {
+  width: auto;
+}
+
+.button_box {
+  width: auto;
+  height: 100px;
+}
+
+.NOPE_button {
+  background: lightblue;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.LIKE_button {
+  background: lightcoral;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.NOPE_in {
+  margin-left: 75%;
+}
+
+.LIKE_in {
+  margin-left: 25%;
+}
+
+.HOME_area {
+}
+
+/* pxだと画面範囲を変えても変わらない
+%だと画面範囲を変えると画面範囲に応じて変化する */
