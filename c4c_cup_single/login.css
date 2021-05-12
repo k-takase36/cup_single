@@ -1,4 +1,7 @@
 .container {
+  /* divタグのクラス「container」（ブロック要素）を中央揃えにする */
   text-align: center;
-  margin:0 auto;
+  /* ブロック要素内の上部marigin（余白）を指定する */
+  margin-top: 3%;
+  background-color: bisque;
 }
