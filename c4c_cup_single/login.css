@@ -5,3 +5,29 @@
   margin-top: 3%;
   background-color: bisque;
 }
+
+.mail_field {
+  /* 親要素のdivタグを中央揃えにする */
+  text-align: center;
+  /* 上部marigin（余白）を指定する */
+  margin-top: 30%;
+  background-color: powderblue;
+}
+
+.mail_text {
+  /* 子要素をインラインブロック要素として、左揃えに指定する */
+  text-align: left;
+  display: inline-block;
+}
+
+.password_field {
+  /* 中央揃えにする */
+  text-align: center;
+  background-color: lightpink;
+}
+
+.password_text {
+  /* 子要素をインラインブロック要素として、左揃えに指定する */
+  text-align: left;
+  display: inline-block;
+}

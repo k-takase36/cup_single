@@ -10,12 +10,19 @@
   <div class="container">
     <h2 class="main_title">ログイン画面</h2>
   </div>
-  <div class="mail_text">
-    <p>メールアドレス（ログインID）</p>
-      <input type="text" name="user_id" size="40" maxlength="30">
-    <p>パスワード</p>
-      <input type="password" name="user_pwd" size="40" maxlength="30"
-    <input type="text">
+  <!-- メール入力欄を2つのdivタグで囲み、親要素、子要素とする -->
+  <div class="mail_field">
+    <div class="mail_text">
+      <p>メールアドレス（ログインID）</p>
+        <input type="text" name="user_id" size="40" maxlength="30">
+    </div>
+  </div>
+  <!-- パスワード入力欄を2つのdivタグで囲み、親要素、子要素とする -->
+  <div class="password_field">
+    <div class="password_text">
+      <p>パスワード</p>
+      <input type="password" name="user_pwd" size="40" maxlength="30">
+    </div>
   </div>
 </body>
 </html>
