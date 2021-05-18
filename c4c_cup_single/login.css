@@ -48,3 +48,9 @@
   text-decoration: none;
   color: white;
 }
+
+.account_link {
+  /* 親要素のdivタグを中央揃えにする */
+  text-align: center;
+  margin-top: 2%;
+}
