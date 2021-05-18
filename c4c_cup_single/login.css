@@ -21,7 +21,7 @@
 }
 
 .password_field {
-  /* 中央揃えにする */
+  /* 親要素のdivタグを中央揃えにする */
   text-align: center;
   background-color: lightpink;
 }
@@ -30,4 +30,21 @@
   /* 子要素をインラインブロック要素として、左揃えに指定する */
   text-align: left;
   display: inline-block;
+}
+
+/* ボタンの親要素のdivタグを中央揃えにすることで、子要素も中央揃えにする */
+.button_box {
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* ボタンの子要素を下記のように指定 */
+.login_button {
+  /* border-radiusでボタンの角を丸くする */
+  border-radius: 5px;
+  background-color: royalblue;
+  padding: 10px;
+  /* text-decoration: none;でaタグでデフォルト表示されているアンダーラインを非表示にする */
+  text-decoration: none;
+  color: white;
 }
