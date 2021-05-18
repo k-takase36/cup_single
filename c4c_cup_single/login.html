@@ -5,32 +5,48 @@
   <title>LoginScreen</title>
 </head>
 <body>
+  <!-- ログイン画面テキスト作成 -->
   <!-- divタグを親要素、h2タグを子要素とする -->
   <!-- divタグ、h2タグ両方にクラスを割り当て汎用的にCSSを適用できるようにする -->
   <div class="container">
     <h2 class="main_title">ログイン画面</h2>
   </div>
-  <!-- メール入力欄を親要素、子要素、2つのdivタグで囲み、input type="text"でメールアドレス入力欄を作成 -->
+  
+  <!-- メール入力欄作成 -->
+  <!-- 親要素、子要素、2つのdivタグで囲み、input type="text"でメールアドレス入力欄を作成 -->
   <div class="mail_field">
     <div class="mail_text">
       <p>メールアドレス（ログインID）</p>
         <input type="text" name="user_id" size="40" maxlength="30">
     </div>
   </div>
-  <!-- パスワード入力欄を親要素、子要素、2つのdivタグで囲み、input type="password"でパスワード入力欄を作成 -->
+  
+  <!-- パスワード入力欄作成 -->
+  <!-- 親要素、子要素、2つのdivタグで囲み、input type="password"でパスワード入力欄を作成 -->
   <div class="password_field">
     <div class="password_text">
       <p>パスワード</p>
       <input type="password" name="user_pwd" size="40" maxlength="30">
     </div>
   </div>
+  
+  <!-- ログインボタン作成 -->
   <!-- 親要素をdivタグで囲み、子要素をaタグで別リンクへ遷移可能、クラスを割り当てCSSでボタンを作成できるようにする -->
   <div class="button_box">
     <a href="#" class="login_button">ログイン</a>
   </div>
+
+  <!-- アカウントなしリンク作成 -->
   <!-- 親要素をdivタグで囲み、子要素をaタグで別リンクへ遷移可能にする -->
   <div class="account_link">
     <a href="#">アカウントをお持ちでない方はこちら</a>
   </div>
+
+  <!-- パスワード忘れリンク作成 -->
+  <!-- 親要素をdivタグで囲み、子要素をaタグで別リンクへ遷移可能にする -->
+  <div class="password_link">
+    <a href="#">パスワードをお忘れの方はこちら</a>
+</div>
+
 </body>
 </html>

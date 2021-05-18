@@ -20,6 +20,11 @@
   display: inline-block;
 }
 
+/* pタグの下部marigin（余白）をなくし入力欄の幅を寄せる */
+.mail_text p {
+  margin-bottom: 0px;
+}
+
 .password_field {
   /* 親要素のdivタグを中央揃えにする */
   text-align: center;
@@ -30,6 +35,11 @@
   /* 子要素をインラインブロック要素として、左揃えに指定する */
   text-align: left;
   display: inline-block;
+}
+
+/* pタグの下部marigin（余白）をなくし入力欄の幅を寄せる */
+.password_text p {
+  margin-bottom: 0px;
 }
 
 /* ボタンの親要素のdivタグを中央揃えにすることで、子要素も中央揃えにする */
@@ -52,5 +62,12 @@
 .account_link {
   /* 親要素のdivタグを中央揃えにする */
   text-align: center;
-  margin-top: 2%;
+  margin-top: 1%;
+  background-color: lightgoldenrodyellow;
+}
+
+.password_link {
+  /* 親要素のdivタグを中央揃えにする */
+  text-align: center;
+  background-color: lightgoldenrodyellow;
 }
