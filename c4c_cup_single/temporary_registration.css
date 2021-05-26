@@ -1,0 +1,84 @@
+.container {
+  /* divタグのクラス「container」（ブロック要素）を中央揃えにする */
+  text-align: center;
+  /* ブロック要素内の上部marigin（余白）を指定する */
+  margin-top: 3%;
+  background-color: bisque;
+}
+
+.required_item {
+  /* 右揃えにする */
+  text-align: right;
+  background-color: mistyrose;
+}
+
+.user_field {
+  /* 上部marigin（余白）を指定する */
+  margin-top: 7%;
+  background-color: powderblue;
+}
+
+.user_text {
+  /* 子要素をインラインブロック要素として、左揃えに指定する */
+  text-align: left;
+  display: inline-block;
+}
+
+/* pタグの下部marigin（余白）をなくし入力欄の幅を寄せる */
+.user_text p {
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+.mail_field {
+  /* 上部marigin（余白）を指定する */
+  margin-top: 10%;
+  background-color: darkseagreen;
+}
+
+.mail_text {
+  /* 子要素をインラインブロック要素として、左揃えに指定する */
+  text-align: left;
+  display: inline-block;
+}
+
+/* pタグの下部marigin（余白）をなくし入力欄の幅を寄せる */
+.mail_text p {
+  margin-bottom: 0px;
+}
+
+.password_field {
+  background-color: lightpink;
+}
+
+.password_text {
+  /* 子要素をインラインブロック要素として、左揃えに指定する */
+  text-align: left;
+  display: inline-block;
+}
+
+/* pタグの下部marigin（余白）をなくし入力欄の幅を寄せる */
+.password_text p {
+  margin-bottom: 0px;
+}
+
+/* ボタンの親要素のdivタグを中央揃えにすることで、子要素も中央揃えにする */
+.button_box {
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* ボタンの子要素を下記のように指定 */
+.tr_button {
+  /* border-radiusでボタンの角を丸くする */
+  border-radius: 5px;
+  background-color: royalblue;
+  padding: 10px;
+  /* text-decoration: none;でaタグでデフォルト表示されているアンダーラインを非表示にする */
+  text-decoration: none;
+  color: white;
+}

@@ -6,6 +6,52 @@
   <title>TemporaryRegistration</title>
 </head>
 <body>
-  
+  <!-- 仮登録画面テキスト作成 -->
+  <!-- divタグを親要素、h2タグを子要素とする -->
+  <!-- divタグ、h2タグ両方にクラスを割り当て汎用的にCSSを適用できるようにする -->
+  <div class="container">
+    <h2 class="main_title">仮登録画面</h2>
+  </div>
+  <div class="required_item">
+    <p>※必須項目</p>
+  </div>
+  <!-- ユーザー入力欄作成 -->
+  <!-- 親要素、子要素、2つのdivタグで囲み、input type="text"でユーザー名入力欄を作成 -->
+  <div class="user_field">
+    <div class="user_text">
+      <p>ユーザー名 ※</p>
+        <input type="text" name="user_id" size="40" maxlength="30">
+    </div>
+  </div>
+  <div>
+    <p>生年月日 ※</p>
+  </div>
+  <div>
+    <p>性別 ※</p>
+  </div>
+  <!-- メール入力欄作成 -->
+  <!-- 親要素、子要素、2つのdivタグで囲み、input type="text"でメールアドレス入力欄を作成 -->
+  <div class="mail_field">
+    <div class="mail_text">
+      <p>メールアドレス（ログインID）(6~30文字の半角英数字) ※</p>
+        <input type="text" name="user_id" size="40" maxlength="30">
+    </div>
+  </div>
+  <!-- パスワード入力欄作成 -->
+  <!-- 親要素、子要素、2つのdivタグで囲み、input type="password"でパスワード入力欄を作成 -->
+  <div class="password_field">
+    <div class="password_text">
+      <p>パスワード(6~30文字の半角英数字) ※</p>
+      <input type="password" name="user_pwd" size="40" maxlength="30">
+    </div>
+  </div>
+  <div>
+    <div>パスワードを表示する</div>
+  </div>
+  <!-- ログインボタン作成 -->
+  <!-- 親要素をdivタグで囲み、子要素をaタグで別リンクへ遷移可能、クラスを割り当てCSSでボタンを作成できるようにする -->
+  <div class="button_box">
+    <a href="#" class="tr_button">仮登録</a>
+  </div>
 </body>
 </html>
